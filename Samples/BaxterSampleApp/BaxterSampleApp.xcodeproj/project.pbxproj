@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8920EC121EB3489A00F60471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8920EC111EB3489A00F60471 /* main.m */; };
+		8920EC151EB3489A00F60471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8920EC141EB3489A00F60471 /* AppDelegate.m */; };
+		8920EC181EB3489A00F60471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8920EC171EB3489A00F60471 /* ViewController.m */; };
+		8920EC1B1EB3489A00F60471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8920EC191EB3489A00F60471 /* Main.storyboard */; };
+		8920EC1D1EB3489A00F60471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8920EC1C1EB3489A00F60471 /* Assets.xcassets */; };
+		8920EC201EB3489A00F60471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8920EC1E1EB3489A00F60471 /* LaunchScreen.storyboard */; };
+		8920EC2B1EB3489A00F60471 /* BaxterSampleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8920EC2A1EB3489A00F60471 /* BaxterSampleAppUITests.m */; };
+		8920EC381EB34F7800F60471 /* BaxterSample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8920EC371EB34F7800F60471 /* BaxterSample.pdf */; };
+		8920EC3B1EB350D400F60471 /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8920EC3A1EB350D400F60471 /* DocumentViewController.m */; };
+		8920EC3E1EB350EE00F60471 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8920EC3D1EB350EE00F60471 /* PageViewController.m */; };
+		8920EC411EB3510000F60471 /* FieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8920EC401EB3510000F60471 /* FieldViewController.m */; };
+		8920EC421EB351AF00F60471 /* Baxter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8920EC351EB348AA00F60471 /* Baxter.framework */; };
+		8920EC431EB351AF00F60471 /* Baxter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8920EC351EB348AA00F60471 /* Baxter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		894638941EE70D02009939B8 /* WacomLicensing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894638921EE70CEB009939B8 /* WacomLicensing.framework */; };
+		894638951EE70D02009939B8 /* WacomLicensing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 894638921EE70CEB009939B8 /* WacomLicensing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		894638971EE70E17009939B8 /* demo.lic in Resources */ = {isa = PBXBuildFile; fileRef = 894638961EE70E17009939B8 /* demo.lic */; };
+		89CB68871EE81CC600091BE2 /* DirectoryWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB68861EE81CC600091BE2 /* DirectoryWatcher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8920EC271EB3489A00F60471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8920EC051EB3489A00F60471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8920EC0C1EB3489A00F60471;
+			remoteInfo = BaxterSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8920EC441EB351B000F60471 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8920EC431EB351AF00F60471 /* Baxter.framework in Embed Frameworks */,
+				894638951EE70D02009939B8 /* WacomLicensing.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8920EC0D1EB3489A00F60471 /* BaxterSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaxterSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8920EC111EB3489A00F60471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8920EC131EB3489A00F60471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8920EC141EB3489A00F60471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8920EC161EB3489A00F60471 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8920EC171EB3489A00F60471 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8920EC1A1EB3489A00F60471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8920EC1C1EB3489A00F60471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8920EC1F1EB3489A00F60471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8920EC211EB3489A00F60471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8920EC261EB3489A00F60471 /* BaxterSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaxterSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8920EC2A1EB3489A00F60471 /* BaxterSampleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaxterSampleAppUITests.m; sourceTree = "<group>"; };
+		8920EC2C1EB3489A00F60471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8920EC351EB348AA00F60471 /* Baxter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Baxter.framework; path = ../../Baxter.framework; sourceTree = "<group>"; };
+		8920EC371EB34F7800F60471 /* BaxterSample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BaxterSample.pdf; sourceTree = "<group>"; };
+		8920EC391EB350D400F60471 /* DocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		8920EC3A1EB350D400F60471 /* DocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		8920EC3C1EB350EE00F60471 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		8920EC3D1EB350EE00F60471 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		8920EC3F1EB3510000F60471 /* FieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldViewController.h; sourceTree = "<group>"; };
+		8920EC401EB3510000F60471 /* FieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldViewController.m; sourceTree = "<group>"; };
+		894638921EE70CEB009939B8 /* WacomLicensing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WacomLicensing.framework; path = ../../WacomLicensing.framework; sourceTree = "<group>"; };
+		894638961EE70E17009939B8 /* demo.lic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = demo.lic; path = BaxterSampleApp/demo.lic; sourceTree = "<group>"; };
+		89CB68831EE7F6EC00091BE2 /* BaxterSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaxterSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		89CB68861EE81CC600091BE2 /* DirectoryWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryWatcher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8920EC0A1EB3489A00F60471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8920EC421EB351AF00F60471 /* Baxter.framework in Frameworks */,
+				894638941EE70D02009939B8 /* WacomLicensing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8920EC231EB3489A00F60471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8920EC041EB3489A00F60471 = {
+			isa = PBXGroup;
+			children = (
+				894638961EE70E17009939B8 /* demo.lic */,
+				894638921EE70CEB009939B8 /* WacomLicensing.framework */,
+				8920EC351EB348AA00F60471 /* Baxter.framework */,
+				8920EC0F1EB3489A00F60471 /* BaxterSampleApp */,
+				8920EC291EB3489A00F60471 /* BaxterSampleAppUITests */,
+				8920EC0E1EB3489A00F60471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8920EC0E1EB3489A00F60471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8920EC0D1EB3489A00F60471 /* BaxterSampleApp.app */,
+				8920EC261EB3489A00F60471 /* BaxterSampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8920EC0F1EB3489A00F60471 /* BaxterSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				8920EC371EB34F7800F60471 /* BaxterSample.pdf */,
+				8920EC131EB3489A00F60471 /* AppDelegate.h */,
+				8920EC141EB3489A00F60471 /* AppDelegate.m */,
+				8920EC161EB3489A00F60471 /* ViewController.h */,
+				8920EC171EB3489A00F60471 /* ViewController.m */,
+				8920EC391EB350D400F60471 /* DocumentViewController.h */,
+				8920EC3A1EB350D400F60471 /* DocumentViewController.m */,
+				8920EC3C1EB350EE00F60471 /* PageViewController.h */,
+				8920EC3D1EB350EE00F60471 /* PageViewController.m */,
+				8920EC3F1EB3510000F60471 /* FieldViewController.h */,
+				8920EC401EB3510000F60471 /* FieldViewController.m */,
+				8920EC191EB3489A00F60471 /* Main.storyboard */,
+				8920EC1C1EB3489A00F60471 /* Assets.xcassets */,
+				8920EC1E1EB3489A00F60471 /* LaunchScreen.storyboard */,
+				8920EC211EB3489A00F60471 /* Info.plist */,
+				8920EC101EB3489A00F60471 /* Supporting Files */,
+			);
+			path = BaxterSampleApp;
+			sourceTree = "<group>";
+		};
+		8920EC101EB3489A00F60471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89CB68861EE81CC600091BE2 /* DirectoryWatcher.swift */,
+				8920EC111EB3489A00F60471 /* main.m */,
+				89CB68831EE7F6EC00091BE2 /* BaxterSampleApp-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8920EC291EB3489A00F60471 /* BaxterSampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8920EC2A1EB3489A00F60471 /* BaxterSampleAppUITests.m */,
+				8920EC2C1EB3489A00F60471 /* Info.plist */,
+			);
+			path = BaxterSampleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8920EC0C1EB3489A00F60471 /* BaxterSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8920EC2F1EB3489A00F60471 /* Build configuration list for PBXNativeTarget "BaxterSampleApp" */;
+			buildPhases = (
+				8920EC091EB3489A00F60471 /* Sources */,
+				8920EC0A1EB3489A00F60471 /* Frameworks */,
+				8920EC0B1EB3489A00F60471 /* Resources */,
+				8920EC441EB351B000F60471 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaxterSampleApp;
+			productName = BaxterSampleApp;
+			productReference = 8920EC0D1EB3489A00F60471 /* BaxterSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8920EC251EB3489A00F60471 /* BaxterSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8920EC321EB3489A00F60471 /* Build configuration list for PBXNativeTarget "BaxterSampleAppUITests" */;
+			buildPhases = (
+				8920EC221EB3489A00F60471 /* Sources */,
+				8920EC231EB3489A00F60471 /* Frameworks */,
+				8920EC241EB3489A00F60471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8920EC281EB3489A00F60471 /* PBXTargetDependency */,
+			);
+			name = BaxterSampleAppUITests;
+			productName = BaxterSampleAppUITests;
+			productReference = 8920EC261EB3489A00F60471 /* BaxterSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8920EC051EB3489A00F60471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Wacom;
+				TargetAttributes = {
+					8920EC0C1EB3489A00F60471 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LDZ5CSVJ4P;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					8920EC251EB3489A00F60471 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HP936XN592;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8920EC0C1EB3489A00F60471;
+					};
+				};
+			};
+			buildConfigurationList = 8920EC081EB3489A00F60471 /* Build configuration list for PBXProject "BaxterSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8920EC041EB3489A00F60471;
+			productRefGroup = 8920EC0E1EB3489A00F60471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8920EC0C1EB3489A00F60471 /* BaxterSampleApp */,
+				8920EC251EB3489A00F60471 /* BaxterSampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8920EC0B1EB3489A00F60471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8920EC201EB3489A00F60471 /* LaunchScreen.storyboard in Resources */,
+				894638971EE70E17009939B8 /* demo.lic in Resources */,
+				8920EC1D1EB3489A00F60471 /* Assets.xcassets in Resources */,
+				8920EC1B1EB3489A00F60471 /* Main.storyboard in Resources */,
+				8920EC381EB34F7800F60471 /* BaxterSample.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8920EC241EB3489A00F60471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8920EC091EB3489A00F60471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CB68871EE81CC600091BE2 /* DirectoryWatcher.swift in Sources */,
+				8920EC181EB3489A00F60471 /* ViewController.m in Sources */,
+				8920EC3B1EB350D400F60471 /* DocumentViewController.m in Sources */,
+				8920EC151EB3489A00F60471 /* AppDelegate.m in Sources */,
+				8920EC3E1EB350EE00F60471 /* PageViewController.m in Sources */,
+				8920EC121EB3489A00F60471 /* main.m in Sources */,
+				8920EC411EB3510000F60471 /* FieldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8920EC221EB3489A00F60471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8920EC2B1EB3489A00F60471 /* BaxterSampleAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8920EC281EB3489A00F60471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8920EC0C1EB3489A00F60471 /* BaxterSampleApp */;
+			targetProxy = 8920EC271EB3489A00F60471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8920EC191EB3489A00F60471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8920EC1A1EB3489A00F60471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8920EC1E1EB3489A00F60471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8920EC1F1EB3489A00F60471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8920EC2D1EB3489A00F60471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8920EC2E1EB3489A00F60471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8920EC301EB3489A00F60471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LDZ5CSVJ4P;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../..\"";
+				INFOPLIST_FILE = BaxterSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wacom.wgss.BaxterSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaxterSampleApp/BaxterSampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8920EC311EB3489A00F60471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LDZ5CSVJ4P;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../..\"";
+				INFOPLIST_FILE = BaxterSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wacom.wgss.BaxterSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaxterSampleApp/BaxterSampleApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8920EC331EB3489A00F60471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HP936XN592;
+				INFOPLIST_FILE = BaxterSampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wacom.wgss.BaxterSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BaxterSampleApp;
+			};
+			name = Debug;
+		};
+		8920EC341EB3489A00F60471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HP936XN592;
+				INFOPLIST_FILE = BaxterSampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wacom.wgss.BaxterSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BaxterSampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8920EC081EB3489A00F60471 /* Build configuration list for PBXProject "BaxterSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8920EC2D1EB3489A00F60471 /* Debug */,
+				8920EC2E1EB3489A00F60471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8920EC2F1EB3489A00F60471 /* Build configuration list for PBXNativeTarget "BaxterSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8920EC301EB3489A00F60471 /* Debug */,
+				8920EC311EB3489A00F60471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8920EC321EB3489A00F60471 /* Build configuration list for PBXNativeTarget "BaxterSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8920EC331EB3489A00F60471 /* Debug */,
+				8920EC341EB3489A00F60471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8920EC051EB3489A00F60471 /* Project object */;
+}
