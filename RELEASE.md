@@ -1,4 +1,4 @@
-# SDK for documents - iOS
+# Wacom Ink SDK for documents - iOS
 
 ## Version 1.2.0
 
